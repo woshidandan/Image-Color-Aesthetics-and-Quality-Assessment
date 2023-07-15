@@ -23,7 +23,8 @@ Beijing University of Posts and Telecommunications
 ![Performance](https://user-images.githubusercontent.com/15050507/164587663-043a76d8-5d1b-417e-856d-2320fbe26836.png) -->
 ------------------------------------------------------------------------------------------------------------
 
-# ICAA17K数据集 &nbsp;<a href=""><img width="48" src="[docs/release_icon.png](https://github.com/woshidandan/TANet/blob/main/docs/release_icon.png)"></a>
+# ICAA17K数据集 &nbsp;<a href=""><img width="48" src="https://github.com/woshidandan/Image-Color-Aesthetics-Assessment/assets/15050507/94354c2b-c70e-4d31-bc40-4a2c76d671ff"></a>
+
 
 ## 介绍
 * 简要版：首个面向图像【色彩】的美学评估数据集，1万7千张左右图像，按色彩搭配的类型进行标注。
