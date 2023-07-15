@@ -19,8 +19,6 @@ Beijing University of Posts and Telecommunications
 </div>
 
 因我个人热衷于开源，希望更多的小伙伴关注到这篇工作，故额外写了一篇中文的介绍，不要忘记给我们一个小星星哦，Star一下吧！
-<!-- ![ICAA17K dataset](https://user-images.githubusercontent.com/15050507/164587655-4af0b519-7213-4f29-b378-5dfc51dfab83.png)
-![Performance](https://user-images.githubusercontent.com/15050507/164587663-043a76d8-5d1b-417e-856d-2320fbe26836.png) -->
 ------------------------------------------------------------------------------------------------------------
 
 # ICAA17K数据集 &nbsp;<a href=""><img width="48" src="https://github.com/woshidandan/Image-Color-Aesthetics-Assessment/assets/15050507/94354c2b-c70e-4d31-bc40-4a2c76d671ff"></a>
@@ -74,7 +72,7 @@ Beijing University of Posts and Telecommunications
 
 ## 如果你觉得这篇工作对你有帮助，请引用，不要白嫖-_-:
 ```
-@article{ICaa17k,
+@article{heICAA17k,
   title={Delegate Transformer for Image Color Aesthetics Assessment},
   author={He, Shuai and Ming, Anlong and Yaqi, Li and Jinyuan, Sun and ShunTian, Zheng and Huadong, Ma},
   journal={ICCV},
