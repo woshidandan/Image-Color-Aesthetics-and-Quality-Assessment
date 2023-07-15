@@ -28,9 +28,8 @@ Beijing University of Posts and Telecommunications
 * 简要版：首个面向图像【色彩】的美学评估数据集，1万7千张左右图像，按色彩搭配的类型进行标注。
 * 太长不看版：目前图像美学评估数据集，主要聚焦于图像整体美感的研究，但就色彩这一维度而言，数据集中的样本存在严重的selection bias，例如，在最大的通用美学评估数据集AVA中，有几乎50%的图像，都属于“black and white”类型的样本。少数几个色彩评估数据集，也仅仅考虑图像pattern色彩和谐性的表现，脱离图像语义内容，且色彩种类覆盖范围极其有限。为此，我们构建了首个真正面向图像色彩主观美感评估的数据集，在数据采集时，我们就按照
 * 常见的视觉上表现为互补色搭配和单色的30种类型，分别整理归类样张，并进行众包标注。
-<div align="center">
 ![ICAA17K dataset](https://github.com/woshidandan/Image-Color-Aesthetics-Assessment/assets/15050507/bedbe5bc-0144-4714-a47f-94aaeb2951f7) 
-</div>
+
 
 ## Download
 * 你可以从这里下载到数据集和标注分数 [here]([https://drive.google.com/drive/folders/1b2D9LeeG5XZzhEa8ldnIZjGh0IHadHhU?usp=sharing](https://drive.google.com/file/d/18PDtXiQNqHe8NUFK9jpuAjBp2MxRjRGM/view?pli=1))，如果失效了，记得cue我。
