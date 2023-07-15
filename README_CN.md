@@ -38,7 +38,7 @@ Beijing University of Posts and Telecommunications
 
 ------------------------------------------------------------------------------------------------------------
 
-# 网络结构Delegate Transformer &nbsp;<a href=""><img width="48" src="docs/release_icon.png"></a>
+# 网络结构Delegate Transformer &nbsp;<a href=""><img width="48" src="https://github.com/woshidandan/Image-Color-Aesthetics-Assessment/assets/15050507/94354c2b-c70e-4d31-bc40-4a2c76d671ff"></a>
 
 
 ## 介绍
