@@ -1,0 +1,4 @@
+{
+    "batch_size": {"_type":"choice", "_value": [24, 32, 40]},
+        "init_lr":{"_type":"choice","_value":[0.00001, 0.00003, 0.0001]}
+}
