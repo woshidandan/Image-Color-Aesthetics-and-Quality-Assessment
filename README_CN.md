@@ -30,31 +30,26 @@ Beijing University of Posts and Telecommunications
 * 简要版：首个面向图像【色彩】的美学评估数据集，1万7千张左右图像，按色彩搭配的类型进行标注。
 * 太长不看版：目前图像美学评估数据集，主要聚焦于图像整体美感的研究，但就色彩这一维度而言，数据集中的样本存在严重的selection bias，例如，在最大的通用美学评估数据集AVA中，有几乎50%的图像，都属于“black and white”类型的样本。少数几个色彩评估数据集，也仅仅考虑图像pattern色彩和谐性的表现，脱离图像语义内容，且色彩种类覆盖范围极其有限。为此，我们构建了首个真正面向图像色彩主观美感评估的数据集，在数据采集时，我们就按照
 * 常见的视觉上表现为互补色搭配和单色的30种类型，分别整理归类样张，并进行众包标注。
-
-![ICAA17K dataset](https://github.com/woshidandan/Image-Color-Aesthetics-Assessment/assets/15050507/bedbe5bc-0144-4714-a47f-94aaeb2951f7)
-
-
 <div align="center">
-    
-![example3](https://user-images.githubusercontent.com/15050507/164624400-acb365e0-05d9-4de9-bc16-f894904c6d33.png)
-    
+![ICAA17K dataset](https://github.com/woshidandan/Image-Color-Aesthetics-Assessment/assets/15050507/bedbe5bc-0144-4714-a47f-94aaeb2951f7) 
 </div>
 
 ## Download
-* 你可以从这里下载到数据集和标注分数 [here](https://drive.google.com/drive/folders/1b2D9LeeG5XZzhEa8ldnIZjGh0IHadHhU?usp=sharing)，如果失效了，记得cue我，每张图像的最大边按等比放缩至800，标注文件都按主题类别分开整理好了。
-* 百度网盘：链接：https://pan.baidu.com/s/1bAiDMwKLF_vLZKelz5ZfRg 提取码：8888 
+* 你可以从这里下载到数据集和标注分数 [here]([https://drive.google.com/drive/folders/1b2D9LeeG5XZzhEa8ldnIZjGh0IHadHhU?usp=sharing](https://drive.google.com/file/d/18PDtXiQNqHe8NUFK9jpuAjBp2MxRjRGM/view?pli=1))，如果失效了，记得cue我。
+* 百度网盘：链接：待补充
 
 ------------------------------------------------------------------------------------------------------------
 
-# TANet网络 &nbsp;<a href=""><img width="48" src="docs/release_icon.png"></a>
+# 网络结构Delegate Transformer &nbsp;<a href=""><img width="48" src="docs/release_icon.png"></a>
+
 
 ## 介绍
-* 简要版：在通用美学数据集AVA，个性化美学数据集FLICKR-AES, 以及自建的数据集TAD66K，全SOTA。
-* 太长不看版：我们提出了一个以主题为核心的网络架构TANet，在搭建这个网络的过程中，希望其能提取出当前图像的主题用于进一步的美感评估，因此将一个百万级别的数据集Place用来预训练我们其中的一个分支。Place数据集包含多数现实场景，虽然场景无法直接等效于主题，但据我们所知，这是目前最好的能进行主题感知的方法。值得注意的是，我们发现经过预训练的分支会出现注意力弥散现象，这会导致费尽力气预训练获得的主题感知能力丧失，这一点在此前用ImageNet进行预训练的工作中也有体现，因此我们会将该分支直接冻结。为了让网络能够自适应的利用主题信息，融合的权重是其学习得到的；为了能够让其获得图像中不同区域色彩的分布及关系信息，我们专门加了一个类似自注意力机制的分支。
-* 在对比性能时，此前的工作对比指标通常不统一，我们索性把所有发布了开源代码的工作都自己跑了一遍，填补了相关缺失的指标，发布了一个目前最全的benchmark。
+* 简要版：魔改可变形transformer，搭配色彩空间划分理论。
+* 太长不看版：待补充。
+* 色彩美感评估领域，此前工作为空白，我们索性把所有发布了开源代码的工作都自己跑了一遍（不得不吐槽一句，IAA领域，大部分工作不开源就算了，少数开源做的是相当的差，希望我们组的工作，能撑撑牌面），确立相关指标，发布了一个目前最全的benchmark。
+![网络结构](https://github.com/woshidandan/Image-Color-Aesthetics-Assessment/assets/15050507/7cb28baf-65c0-41fe-a5a0-7d0078a3e8cc)
 
-![TANet](https://user-images.githubusercontent.com/15050507/164627140-fed5f9b9-43fa-4cb3-a23f-b60935d3aa71.png)
-![Performance](https://user-images.githubusercontent.com/15050507/164587663-043a76d8-5d1b-417e-856d-2320fbe26836.png)
+![Benchmark](https://github.com/woshidandan/Image-Color-Aesthetics-Assessment/assets/15050507/e555a052-1a7c-45cb-af96-8808577ca930)
 
 
 ## 代码环境
