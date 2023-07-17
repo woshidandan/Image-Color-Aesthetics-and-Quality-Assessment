@@ -33,7 +33,8 @@ Beijing University of Posts and Telecommunications
 
 ## Download
 * 你可以从这里下载到数据集和标注分数 [here](https://drive.google.com/file/d/18PDtXiQNqHe8NUFK9jpuAjBp2MxRjRGM/view?pli=1)，如果失效了，记得cue我。
-* 百度网盘：链接：待补充
+* 百度网盘：链接：https://pan.baidu.com/s/1dKDEaiUQ6s6m_Gl5AkIbzg?pwd=8888 
+提取码：8888
 
 
 
