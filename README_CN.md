@@ -54,7 +54,7 @@ Beijing University of Posts and Telecommunications
 ![Benchmark](https://github.com/woshidandan/Image-Color-Aesthetics-Assessment/assets/15050507/e555a052-1a7c-45cb-af96-8808577ca930)
 
 ## 关于训练权重
-因为目前和一个手机公司在谈合作，暂时权重不能公开（过段时间肯定开源），不过训练代码都有，大家可以自己训练一个吧。
+因为目前项目原因，暂时权重不能公开（过段时间肯定开源），不过训练代码都有，大家可以自己训练一个吧。
 
 ## 代码环境
 * pandas==0.22.0
