@@ -6,7 +6,7 @@
 <div align="center">
 <h1>
 <b>
-Delegate Transformer for Image Color Aesthetics Assessment
+Thinking Image Color Aesthetics Assessment: Models, Datasets and Benchmarks
 </b>
 </h1>
 <h4>
