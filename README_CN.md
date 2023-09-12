@@ -61,7 +61,7 @@ Beijing University of Posts and Telecommunications
 * tensorboardX==2.5
 
 # 怎么使用代码
-* **注意**: 在ICAA17K或SPAQ上训练之前, 请加载在AVA数据集上的预训练权重，以确保你获得一个好的开始：[link](https://drive.google.com/file/d/1kTwGn2f075iEFi3XrmGRGjgBCEpiNiv9/view?usp=sharing),你也可以自己pre-train一个。
+* **注意**: 在ICAA17K或SPAQ上训练之前, 请加载在AVA数据集上的预训练权重，以确保你获得一个好的开始：[link](https://drive.google.com/file/d/1kTwGn2f075iEFi3XrmGRGjgBCEpiNiv9/view?usp=sharing)，你也可以自己pre-train一个。
 * 我们用了微软的自动调参工具[nni](https://github.com/microsoft/nni)，网上有很多nni相关的[使用教程](https://blog.csdn.net/weixin_43653494/article/details/101039198)，强烈推荐同学们使用这个工具，不仅能自动调参，还能替代TensorBoard对训练过程的各项指标可视化。
 * 如果你安装好了nni之后，训练时请配置好config.yml和超参数文件search_space.json，然后运行nnictl create --config config.yml -p 8999，训练的可视化后台可以在本地的http://127.0.0.1:8999 或 http://172.17.0.3:8999 看到。
 * 如果你不想用这个工具训练或测试，只需要将代码中类似于param_group['lr']这样的超参数的中括号都改为param_group.lr就可以了。
