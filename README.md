@@ -46,6 +46,7 @@ Beijing University of Posts and Telecommunications
 * tensorboardX==2.5
 
 # How to Run the Code
+* **Note**: before train on ICAA17K or SPAQ, please load the pre-trained weights on the AVA, you can download the weights from [link](https://drive.google.com/file/d/1kTwGn2f075iEFi3XrmGRGjgBCEpiNiv9/view?usp=sharing),or you can pre-train by yourself.
 * We used the hyperparameter tuning tool [nni](https://github.com/microsoft/nni), maybe you should know how to use this tool first (it will only take a few minutes of your time), because our training and testing will be in this tool.
 * Train or test, please run: nnictl create --config config.yml -p 8999
 * The Web UI urls are: http://127.0.0.1:8999 or http://172.17.0.3:8999
