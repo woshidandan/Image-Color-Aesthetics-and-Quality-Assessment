@@ -18,7 +18,7 @@ Beijing University of Posts and Telecommunications
 </h4>
 </div>
 
-因我个人热衷于开源，希望更多的小伙伴关注到这篇工作，故额外写了一篇中文的介绍，不要忘记给我们一个小星星哦，Star一下吧！
+因我个人热衷于开源，希望更多的小伙伴关注到这篇工作，故额外写了一篇中文的介绍，不要忘记给我们一个小星星哦，Star一下吧！ [[对于这篇工作的扩展，各位同仁可以提前关注下]](https://github.com/woshidandan/Refine-for-ICAA/blob/main/README.md)
 ------------------------------------------------------------------------------------------------------------
 
 # ICAA17K数据集 &nbsp;<a href=""><img width="48" src="https://github.com/woshidandan/Image-Color-Aesthetics-Assessment/assets/15050507/94354c2b-c70e-4d31-bc40-4a2c76d671ff"></a>
