@@ -3,4 +3,4 @@ Our refined work of [ICCV 2023 "Thinking Image Color Aesthetics Assessment: Mode
 
 More powerful framework, higher performance, more functions!
 
-Code will be released at  [[link]](https://github.com/woshidandan/Refine-for-ICAA)
+Code will be released at [[link]](https://github.com/woshidandan/Refine-for-ICAA).
