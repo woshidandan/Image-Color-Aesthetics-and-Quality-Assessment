@@ -10,7 +10,7 @@ Thinking Image Color Aesthetics Assessment: Models, Datasets and Benchmarks
 <h4>
 <b>
 Shuai He, Anlong Ming, Yaqi Li, Jinyuan Sun, ShunTian Zheng, Huadong Ma
-    
+      
 Beijing University of Posts and Telecommunications
 </b>
 </h4>
